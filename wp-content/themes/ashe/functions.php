@@ -868,3 +868,4 @@ function ashe_register_recommended_plugins() {
 }
 
 // add_action( 'tgmpa_register', 'ashe_register_recommended_plugins' );
+wp_deregister_script('ashe_gfonts_scripts');
